@@ -404,7 +404,6 @@ fig1 = px.scatter(
     title="CBP vs HHS Comparison",
     color="Children in HHS Care",
     color_continuous_scale="Viridis",
-    trendline="ols"
 )
 
 fig1.update_traces(
